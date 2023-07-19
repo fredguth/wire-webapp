@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_wire_webapp_1689803863290-pr-trigger-input-set
+  identifier: Build_wire_webapp_1689803863290prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_wire_webapp_1689803863290
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
